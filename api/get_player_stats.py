@@ -24,3 +24,4 @@ running_back_stats.to_csv('/Users/jungchoi/PycharmProjects/PythonProject1/data/p
 #Filter for all tight end data
 tight_end_stats = df.loc[df.position == 'TE', non_qb_columns]
 tight_end_stats.to_csv('/Users/jungchoi/PycharmProjects/PythonProject1/data/processed/tight_end_stats.csv')
+aaa
