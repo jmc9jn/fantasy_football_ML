@@ -1,27 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e69183-0d64-4bfa-83c5-eeb57116c1f0" name="Changes" comment="" />
+    <list default="true" id="a2e69183-0d64-4bfa-83c5-eeb57116c1f0" name="Changes" comment="connected to api to collect player stats">
+      <change afterPath="$PROJECT_DIR$/api/get_game_location_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/get_weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_creation_scripts/fetch_player_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_creation_scripts/fetch_weather_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/get_player_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_player_stats.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jmc9jn"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jmc9jn/fantasy_football_ML.git",
+    "accountId": "e64a93c4-adb1-4877-99ea-d8caefc235d9"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2xkm0xj87JBQo2xsKeXi8QiLl0b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.fetch_player_stats.executor": "Run",
+    "Python.fetch_weather_data.executor": "Run",
+    "Python.get_game_location_data.executor": "Run",
+    "Python.get_player_stats.executor": "Run",
+    "Python.get_weather.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -41,10 +84,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748490226163</updated>
+      <workItem from="1748490227174" duration="24158000" />
     </task>
+    <task id="LOCAL-00001" summary="connected to api to collect player stats">
+      <option name="closed" value="true" />
+      <created>1748490380504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490380504</updated>
+    </task>
+    <task id="LOCAL-00002" summary="connected to api to collect player stats">
+      <option name="closed" value="true" />
+      <created>1748490430234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490430234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connected to api to collect player stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="connected to api to collect player stats" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$fetch_weather_data.coverage" NAME="fetch_weather_data Coverage Results" MODIFIED="1748832399892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_creation_scripts" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$get_weather.coverage" NAME="get_weather Coverage Results" MODIFIED="1748650605689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$get_game_location_data.coverage" NAME="get_game_location_data Coverage Results" MODIFIED="1748646642716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$get_player_stats.coverage" NAME="get_player_stats Coverage Results" MODIFIED="1748733004728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$fetch_player_stats.coverage" NAME="fetch_player_stats Coverage Results" MODIFIED="1748834691551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_creation_scripts" />
   </component>
 </project>
