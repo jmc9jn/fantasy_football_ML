@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e69183-0d64-4bfa-83c5-eeb57116c1f0" name="Changes" comment="connected to api to collect player stats">
-      <change afterPath="$PROJECT_DIR$/api/get_game_location_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/get_weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_creation_scripts/fetch_player_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_creation_scripts/fetch_weather_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/get_team_defense.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_creation_scripts/fetch_game_location_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/get_player_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_player_stats.py" afterDir="false" />
     </list>
@@ -57,7 +55,9 @@
     "Python.fetch_weather_data.executor": "Run",
     "Python.get_game_location_data.executor": "Run",
     "Python.get_player_stats.executor": "Run",
+    "Python.get_team_defense.executor": "Run",
     "Python.get_weather.executor": "Run",
+    "Python.scratch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -67,6 +67,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -84,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748490226163</updated>
-      <workItem from="1748490227174" duration="24158000" />
+      <workItem from="1748490227174" duration="40915000" />
     </task>
     <task id="LOCAL-00001" summary="connected to api to collect player stats">
       <option name="closed" value="true" />
@@ -102,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748490430234</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="connected to api to collect player stats">
+      <option name="closed" value="true" />
+      <created>1748835105730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748835105730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +141,8 @@
     <SUITE FILE_PATH="coverage/fantasy_football_ML$get_weather.coverage" NAME="get_weather Coverage Results" MODIFIED="1748650605689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
     <SUITE FILE_PATH="coverage/fantasy_football_ML$get_game_location_data.coverage" NAME="get_game_location_data Coverage Results" MODIFIED="1748646642716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
     <SUITE FILE_PATH="coverage/fantasy_football_ML$get_player_stats.coverage" NAME="get_player_stats Coverage Results" MODIFIED="1748733004728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
-    <SUITE FILE_PATH="coverage/fantasy_football_ML$fetch_player_stats.coverage" NAME="fetch_player_stats Coverage Results" MODIFIED="1748834691551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_creation_scripts" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$get_team_defense.coverage" NAME="get_team_defense Coverage Results" MODIFIED="1749180005481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1748894787432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/fantasy_football_ML$fetch_player_stats.coverage" NAME="fetch_player_stats Coverage Results" MODIFIED="1748835401712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_creation_scripts" />
   </component>
 </project>

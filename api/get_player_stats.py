@@ -9,7 +9,7 @@ class getPlayerStatsAPI:
 
     def get_all_stats(self):
         self.df = nfl.import_weekly_data(self.date_range)
-        self.df.to_csv('/Users/jungchoi/fantasy_football_ML/data/raw/player_game_logs.csv')
+        self.df.to_csv('/Users/jungchoi/fantasy_football_ML/data/raw/all_position_stats.csv')
 
     def get_positional_stats(self, position):
         #Get all columns for QBs
